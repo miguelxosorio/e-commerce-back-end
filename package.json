@@ -4,14 +4,15 @@
   "description": "AS A manager at an internet retail company\r I WANT a back end for my e-commerce website that uses the latest technologies\r SO THAT my company can compete with other e-commerce companies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miguelxosorio/e-commerce-back-end.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Miguel Osorio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/miguelxosorio/e-commerce-back-end/issues"
