@@ -38,9 +38,9 @@ here are the endpoints used in this application:
 * `http://localhost:3001/api/tags`
 
 * [Video Link]()
-* ![Categories]()
-* ![Products]()
-* ![Tags]()
+* ![Categories](https://github.com/miguelxosorio/e-commerce-back-end/blob/main/assets/images/categories.JPG)
+* ![Products](https://github.com/miguelxosorio/e-commerce-back-end/blob/main/assets/images/products.JPG)
+* ![Tags](https://github.com/miguelxosorio/e-commerce-back-end/blob/main/assets/images/tags.JPG)
 
 
 ## License
