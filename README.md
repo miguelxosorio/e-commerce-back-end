@@ -1,20 +1,62 @@
 # E-commerce Back End Starter Code
 
-## User Story
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
+![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
 
-## Acceptance Criteria
+## Description
 
-GIVEN a functional Express.js API
-1. WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-    - THEN I am able to connect to a database using Sequelize
-2. WHEN I enter schema and seed commands
-    - THEN a development database is created and is seeded with test data
-3. WHEN I enter the command to invoke the application
-    - THEN my server is started and the Sequelize models are synced to the MySQL database
-4. WHEN I open API GET routes in Insomnia for categories, products, or tags
-    - THEN the data for each of these routes is displayed in a formatted JSON
-5. WHEN I test API POST, PUT, and DELETE routes in Insomnia
-    - THEN I am able to successfully create, update, and delete data in my database
+It's an e-commerce backend application useful for retail companies or business owners. It's run on node, mysql, and javascript. It has set up routes to perform CRUD operations wherein you can Read, Create, Update, or Delete data in your api endpoints. Basing on this application, you can perform CRUD operations on categories, products, and tags.
+
+## Table of Contents
+
+* [Framework](#framework)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Questions](#questions)
+* [Resources](#resources)
+
+
+## Framework
+
+* `node.js`
+* `express.js`
+* `mysql`
+
+## Installation
+
+`git clone`the repo to your local machine, open your bash terminal on VS code, or use git Bash, navigate to the directory where server.js is located, run `npm init -y` on the bash command line to initiate your package.json, then go inside the file and add this `"seed": "node seeds/index.js"` inside the `"scripts": {}`. Run `npm i` on the bash command line to install dependencies. Create a `.env` file wherein you would store your DB_NAME='mysql database name', DB_USER='mysql username', DB_PW='mysql password'. Go to your cmd terminal and log in to your mysql, then run `source db/schema.sql` to initiate your database. Go back to your bash command line and run `npm run seed` to populate your database with sample data, then run `npm start` to initiate the application. 
+
+## Usage
+
+You can use `insomnia` or `postman` to test your api endpoints and CRUD methods.
+
+here are the endpoints used in this application:
+
+* `http://localhost:3001/api/categories/`
+* `http://localhost:3001/api/products`
+* `http://localhost:3001/api/tags`
+
+* [Video Link]()
+* ![Categories]()
+* ![Products]()
+* ![Tags]()
+
+
+## License
+
+This repository is licensed under the ISC license. 
+
+## Contributing
+
+Please refer to the email link below to contact me for any contributions to the project.
+
+## Questions
+
+Questions about this repository? Contact me at [miguel.osorio19@yahoo.com](mailto:miguel.osorio19@yahoo.com). View more of my work in GitHub at [miguelxosorio](https://github.com/miguelxosorio)
+
+## Resources
+* [mysql2](https://www.npmjs.com/package/mysql)
+* [sequelize](https://www.npmjs.com/package/sequelize)
+* [express](https://expressjs.com/)
+* [Shields License and Badges](https://shields.io/category/license)
