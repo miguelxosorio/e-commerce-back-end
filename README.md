@@ -29,7 +29,7 @@ It's an e-commerce backend application useful for retail companies or business o
 
 ## Usage
 
-You can use `insomnia` or `postman` to test your api endpoints and CRUD methods.
+You can use `insomnia` or other api testing applications to test your api endpoints and CRUD methods.
 
 here are the endpoints used in this application:
 
@@ -37,7 +37,7 @@ here are the endpoints used in this application:
 * `http://localhost:3001/api/products`
 * `http://localhost:3001/api/tags`
 
-* [Video Link]()
+* [Video Link](https://watch.screencastify.com/v/fx1P1pcAg31CakpE234E)
 * ![Categories](https://github.com/miguelxosorio/e-commerce-back-end/blob/main/assets/images/categories.JPG)
 * ![Products](https://github.com/miguelxosorio/e-commerce-back-end/blob/main/assets/images/products.JPG)
 * ![Tags](https://github.com/miguelxosorio/e-commerce-back-end/blob/main/assets/images/tags.JPG)
